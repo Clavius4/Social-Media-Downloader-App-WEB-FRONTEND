@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    @apply m-0 p-0 w-screen overflow-x-hidden flex flex-col justify-start items-center min-h-screen;
+    box-sizing: border-box;
+}
+
+#app{
+    @apply w-screen flex flex-1 flex-col overflow-hidden;
+}
+.m-res{
+@apply mx-2 md:mx-6 lg:mx-10 xl:mx-20
+}
+

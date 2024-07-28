@@ -1,9 +1,9 @@
 <template>
-    <div class="grid grid-cols-1 items-start sm:grid-cols-2 gap-4 m-res">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 m-res">
       <div><img :src="choma" class="w-full h-full object-contain" /></div>
       <div>
         <p class="text-xl font-semibold m-res mb-4">Downloaders</p>
-        <p class="m-res">Youtube Downloader Main Page</p>
+        <p class="m-res">Facebook Downloader Main Page</p>
       </div>
     </div>
   </template>
