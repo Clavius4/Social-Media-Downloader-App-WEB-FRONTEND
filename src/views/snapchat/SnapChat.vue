@@ -4,17 +4,17 @@
       <img :src="choma" class="w-full h-full object-contain" />
     </div>
     <div>
-      <p class="text-xl font-extrabold m-res mb-4">TikTok Downloader</p>
+      <p class="text-xl font-extrabold m-res mb-4">SnapChat Downloader</p>
       <p class="m-res">Select Download Method</p>
       <!-- Add the dotted boxes here -->
       <div class="dotted-box-container mt-4">
-        <router-link to="/tiktok-playlists" class="dotted-box">
+        <router-link to="/snapchat-playlists" class="dotted-box">
           <div class="box-content">
             <img :src="youtube" class="icon" />
             <p>View Your Playlist</p>
           </div>
         </router-link>
-        <router-link to="/tiktok-video" class="dotted-box">
+        <router-link to="/snapchat-video" class="dotted-box">
           <div class="box-content">
             <img :src="youtube" class="icon" />
             <p>Download Video</p>
